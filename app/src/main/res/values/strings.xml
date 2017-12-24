@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">GenteraTest</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Correo electrónico</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Iniciar sesión</string>
+
+    <string name="error_invalid_email">Este correo es incorrecto</string>
+    <string name="error_invalid_password">La contraseña es muy corta</string>
+    <string name="error_incorrect_password">Contraseña incorrecta</string>
+    <string name="error_field_required">Este campo es requerido</string>
+    <string name="error_general">Credenciales incorrectas</string>
+
+    <!-- Mensaje de bienvenida -->
+    <string name="welcome">Bienvenido a la aplicación Gentera</string>
+
+    <!-- Botones -->
+    <string name="button_accept">Aceptar</string>
+    <string name="button_save">Guardar</string>
+
+    <!-- Menú -->
+    <string name="menu_surveys">Cuestionarios</string>
+    <string name="menu_querys">Consultas</string>
+    <string name="menu_close">Cerrar sesión</string>
+
+    <!-- Cuestionarios -->
+    <string name="query_name">Nombre</string>
+    <string name="query_age">Edad</string>
+    <string name="query_address">Dirección</string>
+    <string name="query_civil">Estado civil</string>
+    <string name="query_comments">Comentarios</string>
+
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

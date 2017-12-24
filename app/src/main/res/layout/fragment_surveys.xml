@@ -1,0 +1,105 @@
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent" >
+
+<android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/login_vertical_margin">
+
+    <AutoCompleteTextView
+        android:id="@+id/query_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/query_name"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:singleLine="true"/>
+
+</android.support.design.widget.TextInputLayout>
+
+<android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/query_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/query_age"
+        android:imeActionId="@+id/login"
+        android:imeActionLabel="@string/query_age"
+        android:imeOptions="actionUnspecified"
+        android:inputType="number"
+        android:maxLines="1"
+        android:singleLine="true"/>
+
+</android.support.design.widget.TextInputLayout>
+
+<android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/query_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/query_address"
+        android:imeActionId="@+id/login"
+        android:imeActionLabel="@string/query_address"
+        android:imeOptions="actionUnspecified"
+        android:inputType="textLongMessage"
+        android:maxLines="1"
+        android:singleLine="true"/>
+
+</android.support.design.widget.TextInputLayout>
+
+<android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/query_civil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/query_civil"
+        android:imeActionId="@+id/login"
+        android:imeActionLabel="@string/query_civil"
+        android:imeOptions="actionUnspecified"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true"/>
+
+</android.support.design.widget.TextInputLayout>
+
+
+
+<android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/query_comments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/query_comments"
+        android:imeActionId="@+id/login"
+        android:imeActionLabel="@string/query_comments"
+        android:imeOptions="actionUnspecified"
+        android:inputType="textLongMessage"
+        android:maxLines="1"
+        android:singleLine="true"/>
+
+</android.support.design.widget.TextInputLayout>
+
+<Button
+    android:id="@+id/surveys_save_button"
+    style="?android:textAppearanceSmall"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/login_vertical_margin"
+    android:text="@string/button_save"
+    android:textStyle="bold" />
+</LinearLayout>
